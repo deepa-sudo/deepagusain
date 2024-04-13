@@ -1,0 +1,47 @@
+:root {
+  --bgColor: #151515;
+  --textColor: #ffffff;
+  --UnderLine: #4ce29d; 
+}
+*{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400        ;
+    font-style: normal;
+}
+
+body { 
+    background-color: var(--bgColor); 
+    margin: 0;
+    color: var(--textColor);
+    /* font-family: "Sofia", sans-serif; */
+}
+
+.wide-section{
+    width: 700px;
+    margin: 30px auto;
+    max-width: 100%;
+}
+.two-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.two-section>div{
+    width: 40%;
+}
+.bg-profile-img{
+    background-image: url('../images/deepagusain.png');
+    background-repeat: no-repeat;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: var(--UnderLine);
+    text-underline-offset: 10px;
+    color: var(--textColor);
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
