@@ -183,7 +183,7 @@ progress {color: var(--UnderLine);
   text-align: right;
   transition: all 0.6s ease;
    position: relative;
-  top: 20em;
+   padding-right: 20px;
 }
 
 .button:hover {
